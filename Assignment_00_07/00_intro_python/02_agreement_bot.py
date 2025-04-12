@@ -1,0 +1,7 @@
+def main():
+    animal: str = input("\033[1;3m What's your favorite animal____? \033[0m")
+    print("My favorite animal is also!", animal)
+
+
+if __name__ == "__main__":
+    main()
